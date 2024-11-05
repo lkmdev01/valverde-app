@@ -16,8 +16,8 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mx-auto"> <!-- mx-auto para centralizar os links -->
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
@@ -43,10 +43,6 @@
 }
 
 .nav-link {
-  color: #D5C185; /* Cor dourada */
-}
-
-a{
   color: #D5C185; /* Cor dourada */
 }
 

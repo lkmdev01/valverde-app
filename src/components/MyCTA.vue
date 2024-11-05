@@ -1,14 +1,15 @@
 <template>
   <div class="bg-cinza">
     <div class="container py-5">
-      <div class="text-center mb-5">
+      <div class="text-center">
         <h2 class="fs-3">Faça seu agendamento!</h2>
         <p style="max-width: 600px; margin: 0 auto;margin-bottom: 10px;">
-          Trazemos cortes modernos e clássicos, tendo em vista sempre a satisfação dos nossos clientes, com serviços de qualidade e ótimo custo-benefício.
+          A Barbearia Valverde traz cortes modernos e clássicos, tendo em vista sempre a satisfação de seus clientes, com serviços de qualidade e ótimo custo benefício. Ambiente aconchegante e ótima música.
         </p>
-        <span class="span-text">Veja nosso trabalho abaixo</span>
+        <button type="button" class="btn btn-primary cta-button">Agende Agora</button>
+        <!-- <span class="span-text">Veja nosso trabalho abaixo</span> -->
       </div>
-      <div class="row justify-content-center">
+      <!-- <div class="row justify-content-center">
         <div id="carouselExampleIndicators" class="carousel slide w-75" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -35,10 +36,10 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-      </div>
-      <div class="text-center mt-4">
-        <button type="button" class="btn btn-primary cta-button">Agende Agora</button>
-      </div>
+      </div> -->
+      <!-- <div class="text-center mt-4">
+        
+      </div> -->
     </div>
   </div>
 </template>

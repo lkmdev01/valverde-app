@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-cinza-dark text-white text-center text-lg-start">
-    <div class="container p-4">
+    <div class="container px-4 py-5">
       <div class="row align-items-center">
         <div class="col-lg-4 col-md-6 mb-4">
           <h5 class="text-uppercase">Links Úteis</h5>
