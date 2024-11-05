@@ -1,7 +1,10 @@
 <template>
-  <footer class="bg-cinza-dark text-white text-center text-lg-start">
+  <footer id="contato" class="bg-cinza-dark text-white text-center text-lg-start">
     <div class="container px-4 py-5">
       <div class="row align-items-center">
+        <div class="col-lg-4 col-md-6 mb-4 text-center">
+          <img src="/logocirculo.png" alt="Logo" class="logo-footer" />
+        </div>
         <div class="col-lg-4 col-md-6 mb-4">
           <h5 class="text-uppercase">Links Úteis</h5>
           <ul class="list-unstyled">
@@ -20,7 +23,6 @@
           <a href="#!" class="text-white me-3"><i class="fab fa-twitter"></i></a>
           <a href="#!" class="text-white me-3"><i class="fab fa-instagram"></i></a>
         </div>
-
         <div class="col-lg-4 col-md-6 mb-4">
           <h5 class="text-uppercase">Localização</h5>
           <p>Localizada no Guarujá (Vicente de Carvalho), em atendimento exclusivo e agendado para melhor servi-lo.</p>
@@ -31,9 +33,6 @@
             style="border:0;"
             loading="lazy">
           </iframe>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4 text-center">
-          <img src="/logocirculo.png" alt="Logo" class="logo-footer" />
         </div>
       </div>
     </div>
@@ -57,7 +56,7 @@ footer {
 }
 
 .logo-footer {
-  max-width: 150px; /* Ajuste o tamanho da logo conforme necessário */
+  max-width: 200px; /* Ajuste o tamanho da logo conforme necessário */
   height: auto; /* Mantém a proporção da imagem */
 }
 </style>

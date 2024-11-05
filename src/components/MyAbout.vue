@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-cinza-2">
+  <div id="about" class="bg-cinza-2">
     <div class="container py-5">
       <div class="row align-items-center justify-content-center"> <!-- Ajustado para centralizar -->
         <!-- <div class="col-12 col-md-6 mb-4 flex">
