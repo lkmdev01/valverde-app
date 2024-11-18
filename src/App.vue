@@ -4,7 +4,6 @@ import MyHero from "./components/MyHero.vue"
 import MyServices from "./components/MyServices.vue"
 import MyAbout from "./components/MyAbout.vue"
 import MyFooter from "./components/MyFooter.vue"
-import MyCTA from "./components/MyCTA.vue"
 </script>
 
 <template>

@@ -17,7 +17,7 @@
         A Barbearia Valverde traz cortes modernos e clássicos, tendo em vista sempre a satisfação de seus clientes, com serviços de qualidade e ótimo custo benefício. Ambiente aconchegante e ótima música.
       </p>
       <button type="button" class="btn btn-primary cta-button">
-        <a style="text-decoration: none; color: black;" href="https://api.whatsapp.com/send?phone=5513981384533&text=Vim%20pelo%20site%20e%20gostaria%20de%20marcar%20um%20horário.">Agende Agora</a>
+        <a style="text-decoration: none; color: black;" href="https://api.whatsapp.com/send?phone=13997607210&text=Vim%20pelo%20site%20e%20gostaria%20de%20marcar%20um%20horário.">Agende Agora</a>
       </button>
     </div>
   </div>
