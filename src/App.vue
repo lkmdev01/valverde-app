@@ -23,7 +23,7 @@ import MyCTA from "./components/MyCTA.vue"
       </p>
     </div>
   </div>
-  <MyCTA></MyCTA>
+  <!-- <MyCTA></MyCTA> -->
   <!-- Adiconar localização da barbearia  -->
   <MyFooter></MyFooter>
 
