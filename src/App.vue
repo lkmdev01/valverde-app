@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import MyNavbar from "./components/MyNavbar.vue";
 import MyHero from "./components/MyHero.vue"
+import MyNavBar from "./components/MyNavBar.vue"
 import MyServices from "./components/MyServices.vue"
 import MyAbout from "./components/MyAbout.vue"
 import MyFooter from "./components/MyFooter.vue"
@@ -8,7 +8,7 @@ import MyFooter from "./components/MyFooter.vue"
 
 <template>
   <header>
-    <MyNavbar></MyNavbar>
+    <MyNavBar></MyNavBar>
     <MyHero></MyHero>
   </header>
   <MyServices></MyServices>

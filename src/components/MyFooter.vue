@@ -1,27 +1,27 @@
 <template>
-  <footer id="contato" class="bg-cinza-dark text-white text-center text-lg-start">
+  <footer id="contato" class="bg-cinza text-white text-center text-lg-start">
     <div class="container px-4 py-5">
       <div class="row align-items-center">
-        <div class="col-lg-4 col-md-6 mb-4 text-center">
-          <img src="/logocirculo.png" alt="Logo" class="logo-footer" />
+        <div class="col-lg-4 col-md-6 mb-15 md:mb-4 text-center">
+          <img src="/logocirculo.png" alt="Logo" class="logo-footer mx-auto" />
         </div>
         <div class="col-lg-4 col-md-6 mb-4">
           <h5 class="text-uppercase">Links Úteis</h5>
           <ul class="list-unstyled">
             <li>
-              <a href="#!" class="text-white">Home</a>
+              <a href="#home" class="text-white">Home</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Serviços</a>
+              <a href="#about" class="text-white">Serviços</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Contato</a>
+              <a href="#contato" class="text-white">Contato</a>
             </li>
           </ul>
           <h5 class="text-uppercase mt-5">Siga-nos</h5>
-          <a href="#!" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
-          <a href="#!" class="text-white me-3"><i class="fab fa-twitter"></i></a>
-          <a href="#!" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/barbeariavalverde" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=5513997607210" class="text-white me-3"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/barbeariavalverde/" class="text-white me-3"><i class="fab fa-instagram"></i></a>
         </div>
         <div class="col-lg-4 col-md-6 mb-4">
           <h5 class="text-uppercase">Localização</h5>
@@ -37,7 +37,7 @@
       </div>
     </div>
 
-    <div class="text-center p-3 bg-cinza-dark-2">
+    <div class="text-center p-3 bg-cinza-dark border-t border-gray-400">
       <p class="mb-0">© 2024 Todos os direitos reservados</p>
     </div>
   </footer>
@@ -59,4 +59,5 @@ footer {
   max-width: 200px; /* Ajuste o tamanho da logo conforme necessário */
   height: auto; /* Mantém a proporção da imagem */
 }
+
 </style>
