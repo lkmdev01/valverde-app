@@ -12,7 +12,7 @@
 
     <div class="content-section bg-dark-custom text-center py-5">
       <div class="container">
-        <h2 class="mb-2">ESTILO QUE MARCA.<br> AMIZADE QUE PERMANECE.</h2>
+        <h2 class="mb-2">ESTILO QUE MARCA<br> AMIZADE QUE PERMANECE</h2>
         <p class="description mx-auto mb-4">
           Mais do que cortes modernos e clássicos, entregamos experiência, presença e conexão.
           Desde 2019, a Barbearia Valverde é ponto de encontro para quem valoriza qualidade, respeito e aquele

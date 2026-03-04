@@ -14,7 +14,6 @@ import MyReviews from "./components/MyReviews.vue"
   </header>
   <MyServices></MyServices>
   <MyAbout></MyAbout>
-  <MyReviews></MyReviews>
   <div class="frase bg-cinza-dark-2 text-white">
     <div class="container text-center py-5">
       <h3>SEU ESTILO, NOSSO COMPROMISSO</h3>
@@ -28,6 +27,7 @@ import MyReviews from "./components/MyReviews.vue"
       </p>
     </div>
   </div>
+  <MyReviews></MyReviews>
   <!-- <MyCTA></MyCTA> -->
   <!-- Adiconar localização da barbearia  -->
   <MyFooter></MyFooter>
