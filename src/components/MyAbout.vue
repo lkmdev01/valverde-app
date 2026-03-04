@@ -28,7 +28,7 @@
 </script>
 
 <style scoped>
-/* Estilo adicional, se necessÃ¡rio */
+/* Estilo adicional, se necessário */
 img {
   float: right;
   margin-right: 20px;

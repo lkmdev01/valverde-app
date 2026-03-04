@@ -18,7 +18,7 @@
           Desde 2019, a Barbearia Valverde é ponto de encontro para quem valoriza qualidade, respeito e aquele
           atendimento de confiança que faz você se sentir em casa.
         </p>
-        <a href="https://api.whatsapp.com/send?phone=13997607210&text=Vim%20pelo%20site%20e%20gostaria%20de%20marcar%20um%20horÃ¡rio"
+        <a href="https://api.whatsapp.com/send?phone=13997607210&text=Vim%20pelo%20site%20e%20gostaria%20de%20marcar%20um%20hor%C3%A1rio"
           class="btn py-2 px-5 cta-button" target="_blank" rel="noopener noreferrer">
           Agende Agora
         </a>
@@ -28,7 +28,7 @@
 </template>
 
 <script setup lang="ts">
-// LÃ³gica do componente aqui, se necessÃ¡rio
+// Lógica do componente aqui, se necessário
 </script>
 
 <style scoped>
