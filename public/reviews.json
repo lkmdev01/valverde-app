@@ -1,0 +1,36 @@
+﻿{
+  "updatedAt": "2026-03-04T00:00:00.000Z",
+  "source": "https://share.google/TZPf3SSHkaCBHhxcW",
+  "reviews": [
+    {
+      "name": "Cliente Google",
+      "time": "há 1 mês",
+      "rating": 5,
+      "text": "Atendimento excelente, ambiente acolhedor e corte impecável."
+    },
+    {
+      "name": "Cliente Google",
+      "time": "há 2 meses",
+      "rating": 5,
+      "text": "Pontualidade, atenção aos detalhes e resultado acima da expectativa."
+    },
+    {
+      "name": "Cliente Google",
+      "time": "há 3 meses",
+      "rating": 5,
+      "text": "Profissionais muito bons. Sempre saio satisfeito e volto com confiança."
+    },
+    {
+      "name": "Cliente Google",
+      "time": "há 4 meses",
+      "rating": 5,
+      "text": "Experiência completa, do atendimento ao acabamento final."
+    },
+    {
+      "name": "Cliente Google",
+      "time": "há 5 meses",
+      "rating": 5,
+      "text": "Ótimo custo-benefício e atendimento que faz diferença."
+    }
+  ]
+}
