@@ -27,6 +27,12 @@ const services = [
   },
 ];
 
+const gallery = [
+  { number: "01", image: "/service-c.jpg", alt: "Corte masculino com degradê e desenho geométrico na lateral", title: "Corte com desenho", detail: "Precisão em cada linha" },
+  { number: "02", image: "/service-b.jpg", alt: "Barba longa aparada e alinhada", title: "Barba alinhada", detail: "Forma e personalidade" },
+  { number: "03", image: "/service-cb.jpg", alt: "Corte degradê com barba finalizada", title: "Corte + barba", detail: "Visual completo" },
+];
+
 const shopProducts = [
   {
     number: "01",
@@ -139,6 +145,7 @@ onUnmounted(() => {
         <button class="menu-toggle" type="button" :aria-expanded="menuOpen" aria-label="Abrir menu" @click="toggleMenu"><span></span><span></span></button>
         <div class="nav-links" :class="{ open: menuOpen }">
           <a href="#servicos" @click="closeMenu">Serviços</a>
+          <a href="#cortes" @click="closeMenu">Nossos cortes</a>
           <a href="#shop" @click="closeMenu">Shop</a>
           <a href="#historia" @click="closeMenu">Nossa casa</a>
           <a href="#avaliacoes" @click="closeMenu">Avaliações</a>
@@ -188,6 +195,32 @@ onUnmounted(() => {
             <p>{{ service.description }}</p>
             <a :href="serviceLink(service.message)" target="_blank" rel="noopener noreferrer" :aria-label="`Agendar ${service.title} pelo WhatsApp`">↗</a>
           </article>
+        </div>
+      </section>
+
+      <section id="cortes" class="gallery section-pad" aria-labelledby="gallery-title">
+        <div class="gallery-heading reveal">
+          <div>
+            <p class="eyebrow light"><span></span> Trabalhos da casa</p>
+            <h2 id="gallery-title">O resultado<br /><em>fala por si.</em></h2>
+          </div>
+          <div class="gallery-intro">
+            <p>Alguns trabalhos reais feitos aqui na Valverde. Cada corte tem seu jeito; o capricho é sempre o mesmo.</p>
+            <span>Deslize para ver mais <span aria-hidden="true">→</span></span>
+          </div>
+        </div>
+        <div class="gallery-grid" tabindex="0" aria-label="Galeria de cortes e barbas; deslize para ver as fotos">
+          <figure v-for="work in gallery" :key="work.number" class="gallery-card reveal">
+            <div class="gallery-photo"><img :src="work.image" :alt="work.alt" loading="lazy" /></div>
+            <figcaption>
+              <span>{{ work.number }} / 03</span>
+              <div><strong>{{ work.title }}</strong><small>{{ work.detail }}</small></div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="gallery-bottom reveal">
+          <p>Gostou do que viu? O próximo pode ser o seu.</p>
+          <a class="button button-gold" :href="bookingUrl" target="_blank" rel="noopener noreferrer">Agendar meu corte <span aria-hidden="true">↗</span></a>
         </div>
       </section>
 
